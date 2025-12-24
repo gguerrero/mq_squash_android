@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ranking">Ranking</string>
+    <string name="finals">Finales</string>
+    <string name="rules">Reglas</string>
+    <string name="me">Perfíl</string>
+</resources>

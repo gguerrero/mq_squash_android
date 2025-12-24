@@ -1,0 +1,61 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MQSquashers" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorOnPrimary">@color/text_primary_dark</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_variant</item>
+        <item name="colorOnSecondary">@color/text_primary_dark</item>
+
+        <!-- Background color -->
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="colorSurface">@color/surface_light</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary_light</item>
+        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/secondary</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- This changes the back arrow and overflow menu icon colors -->
+        <item name="colorControlNormal">@color/secondary</item>
+    </style>
+
+    <style name="Theme.MQSquashers" parent="Base.Theme.MQSquashers" />
+
+    <!-- Splash Screen Theme (extends base theme) -->
+    <style name="Theme.MQSquashers.Splash" parent="Theme.SplashScreen">
+        <!-- Background color for splash -->
+        <item name="windowSplashScreenBackground">@color/splash_background_light</item>
+
+        <!-- Your splash icon/image -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_filled_inset</item>
+
+        <!-- Animation duration in milliseconds -->
+        <item name="windowSplashScreenAnimationDuration">2300</item>
+
+        <!-- Theme to apply after splash -->
+        <item name="postSplashScreenTheme">@style/Theme.MQSquashers</item>
+
+        <!-- Status bar for splash -->
+        <item name="android:statusBarColor">@color/splash_background_light</item>
+        <item name="android:navigationBarColor">@color/splash_background_light</item>
+    </style>
+
+    <!-- Custom BottomNavigationView Style -->
+    <style name="Widget.MQSquashers.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <!-- Example: To change the background, uncomment the following line -->
+        <!-- <item name="android:background">@color/surface_light</item> -->
+
+        <!-- Example: To change the tint of the icons and text, you would define a Color State List -->
+        <!-- See https://developer.android.com/guide/topics/resources/color-list-resource -->
+        <!-- <item name="itemIconTint">@color/bottom_nav_item_tint</item> -->
+        <!-- <item name="itemTextColor">@color/bottom_nav_item_tint</item> -->
+    </style>
+</resources>

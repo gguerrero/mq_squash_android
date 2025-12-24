@@ -1,0 +1,35 @@
+<resources>
+    <!-- Palette color names -->
+    <color name="coral">#FC8465</color>
+    <color name="tomato">#FB6F4B</color>
+    <color name="raisin_black">#2D2F3C</color>
+    <color name="space_cadet">#29274C</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray_light">#F5F5F6</color>
+    <color name="gray_medium">#7F808B</color>
+
+    <!-- Primary Brand Colors -->
+    <color name="primary">@color/coral</color>
+    <color name="primary_variant">@color/tomato</color>
+    <color name="secondary">@color/raisin_black</color>
+    <color name="secondary_variant">@color/space_cadet</color>
+
+    <!-- Background Colors -->
+    <color name="background_light">@color/gray_light</color>
+    <color name="background_dark">@color/secondary</color>
+
+    <!-- Surface Colors -->
+    <color name="surface_light">@color/gray_light</color>
+    <color name="surface_dark">@color/secondary</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary_light">@color/secondary_variant</color>
+    <color name="text_primary_dark">@color/primary_variant</color>
+    <color name="text_secondary_light">@color/gray_medium</color>
+    <color name="text_secondary_dark">@color/gray_light</color>
+
+    <!-- Splash Screen -->
+    <color name="splash_background_light">@color/background_light</color>
+    <color name="splash_background_dark">@color/background_dark</color>
+</resources>
