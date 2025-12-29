@@ -1,35 +1,74 @@
 <resources>
-    <!-- Palette color names -->
-    <color name="coral">#FC8465</color>
-    <color name="tomato">#FB6F4B</color>
-    <color name="raisin_black">#2D2F3C</color>
-    <color name="space_cadet">#29274C</color>
+    <!--Color-->
+
+    <!--Material uses an organized approach to applying color by providing a set of attributes -->
+    <!--which define the color of generalized UI elements such as backgrounds, surfaces, type -->
+    <!--and icons. Using these attributes throughout your app makes it easy to change a single -->
+    <!--color, or the entire theme, and have those changes cascade through the interface.-->
+
+    <!--Color is customized by overriding Material Components color attributes with custom -->
+    <!--color values. In this project, your theme’s color attributes are already overridden -->
+    <!--with default values defined in this file, color.xml.  Change any of the values in -->
+    <!--this file to see changes applied across all elements of your app.-->
+
+    <!-- Generic color palette -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- Reds and oranges color palette -->
+    <color name="coral">#FC8465</color>
+    <color name="coral_20">#33FC8465</color>
+    <color name="tomato">#FB6F4B</color>
+    <color name="melon">#FEC2B2</color>
+    <color name="bittersweet">#FB5B5B</color>
+    <color name="amaranth">#DD194B</color>
+    <color name="burnt_sienna">#C87460</color>
+    <color name="rose_taupe">#94635B</color>
+    <color name="misty_rose">#FDD9DB</color>
+
+    <!-- Blacks and neutrals color palette -->
+    <color name="raisin_black">#2D2F3C</color>
     <color name="gray_light">#F5F5F6</color>
     <color name="gray_medium">#7F808B</color>
 
+    <!-- Purples and blues palette -->
+    <color name="space_cadet">#29274C</color>
+    <color name="space_cadet_20">#3329274C</color>
+    <color name="royal_purple">#7E52A0</color>
+    <color name="cool_gray">#8789C0</color>
+    <color name="powder_blue">#ABC1D8</color>
+    <color name="light_blue">#B7D8E1</color>
+    <color name="columbia_blue">#C5D5E4</color>
+
+    <!--LIGHT COLOR THEME-->
+
     <!-- Primary Brand Colors -->
+    <!--colorPrimary colors map to components and elements, such as app bars and buttons. -->
+    <!--colorSecondary colors are most often used as accents on components, such as FABs and -->
+    <!--selection controls.-->
     <color name="primary">@color/coral</color>
     <color name="primary_variant">@color/tomato</color>
     <color name="secondary">@color/raisin_black</color>
     <color name="secondary_variant">@color/space_cadet</color>
+    <color name="secondary_container">@color/space_cadet_20</color>">
 
     <!-- Background Colors -->
-    <color name="background_light">@color/gray_light</color>
-    <color name="background_dark">@color/secondary</color>
+    <!--colorBackground appears behind scrollable content and is used for the default window-->
+    <!--background. colorSurface is mapped to the surface of components such as cards, sheets-->
+    <!--and menus. colorError is used to indicate an error state for components such as-->
+    <!--text fields.-->
+    <color name="background">@color/gray_light</color>
+    <color name="surface">@color/gray_light</color>
+    <color name="error">@color/amaranth</color>
 
-    <!-- Surface Colors -->
-    <color name="surface_light">@color/gray_light</color>
-    <color name="surface_dark">@color/secondary</color>
-
-    <!-- Text Colors -->
-    <color name="text_primary_light">@color/secondary_variant</color>
-    <color name="text_primary_dark">@color/primary_variant</color>
-    <color name="text_secondary_light">@color/gray_medium</color>
-    <color name="text_secondary_dark">@color/gray_light</color>
-
-    <!-- Splash Screen -->
-    <color name="splash_background_light">@color/background_light</color>
-    <color name="splash_background_dark">@color/background_dark</color>
+    <!--"On" colors define how text, icons and strokes are colored in relation to the surface-->
+    <!--on which they appear.-->
+    <color name="on_primary">@color/raisin_black</color>
+    <color name="on_secondary">@color/coral</color>
+    <color name="on_background">@color/raisin_black</color>
+    <color name="on_surface">@color/raisin_black</color>
+    <color name="on_surface_variant">@color/secondary</color>
+    <color name="on_secondary_container">@color/space_cadet</color>
+    <color name="on_error">@color/white</color>
 </resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash Screen Theme (extends base theme) -->
+    <style name="MQTheme.Splash" parent="Theme.SplashScreen">
+        <!-- Background color for splash -->
+        <item name="windowSplashScreenBackground">@color/background</item>
+
+        <!-- Your splash icon/image -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_filled_inset</item>
+
+        <!-- Animation duration in milliseconds -->
+        <item name="windowSplashScreenAnimationDuration">2300</item>
+
+        <!-- Theme to apply after splash -->
+        <item name="postSplashScreenTheme">@style/MQTheme.DayNight</item>
+
+        <!-- Status bar for splash -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+</resources>

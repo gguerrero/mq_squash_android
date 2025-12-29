@@ -9,7 +9,7 @@ import com.example.mqsquashers.MQSquashers
 fun getMainTabs(context: Context): List<HotwireBottomTab> {
     val ranking = HotwireBottomTab(
         title = context.getString(R.string.ranking),
-        iconResId = R.drawable.scoreboard_24px,
+        iconResId = R.drawable.leaderboard_24px,
         configuration = NavigatorConfiguration(
             name = "ranking",
             navigatorHostId = R.id.ranking_nav_host,

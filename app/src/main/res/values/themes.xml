@@ -1,61 +1,55 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.MQSquashers" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Primary brand color -->
+    <style name="MQTheme.DayNight" parent="Base.MyTheme" />
+
+    <style name="Base.MyTheme" parent="Base.MaterialThemeBuilder">
+        <!--Material color attributes -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_variant</item>
-        <item name="colorOnPrimary">@color/text_primary_dark</item>
-
-        <!-- Secondary brand color -->
         <item name="colorSecondary">@color/secondary</item>
         <item name="colorSecondaryVariant">@color/secondary_variant</item>
-        <item name="colorOnSecondary">@color/text_primary_dark</item>
+        <item name="colorSecondaryContainer">@color/secondary_container</item>
 
-        <!-- Background color -->
-        <item name="android:colorBackground">@color/background_light</item>
-        <item name="colorSurface">@color/surface_light</item>
+        <!-- Background and surfaces color -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorError">@color/error</item>
 
-        <!-- Text colors -->
-        <item name="android:textColorPrimary">@color/text_primary_light</item>
-        <item name="android:textColorSecondary">@color/text_secondary_light</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
+        <item name="colorOnError">@color/on_error</item>
 
-        <!-- Status bar color -->
-        <item name="android:statusBarColor">@color/secondary</item>
-        <item name="android:windowLightStatusBar">false</item>
-
-        <!-- This changes the back arrow and overflow menu icon colors -->
-        <item name="colorControlNormal">@color/secondary</item>
+        <!--Component styles-->
+<!--        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MyTheme.AlertDialog</item>-->
+<!--        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>-->
+        <item name="toolbarStyle">@style/Widget.MyTheme.Toolbar</item>
+        <item name="bottomNavigationStyle">@style/Widget.MyTheme.BottomNavigationView</item>
+        <item name="appBarLayoutStyle">@style/Widget.MyTheme.AppBarLayout</item>
+<!--        <item name="materialButtonStyle">@style/Widget.MyTheme.Button</item>-->
+<!--        <item name="buttonOutlineStyle">@style/Widget.MyTheme.OutlinedButton</item>-->
+<!--        <item name="buttonTextStyle">@style/Widget.MyTheme.TextButton</item>-->
+        <!-- Toolbar arrow back style! -->
+        <item name="toolbarNavigationButtonStyle">@style/Widget.MyTheme.Toolbar.Navigation.Tinted</item>
     </style>
 
-    <style name="Theme.MQSquashers" parent="Base.Theme.MQSquashers" />
+    <style name="Base.MaterialThemeBuilder" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="alphaEmphasisHigh">@dimen/alpha_emphasis_high</item>
+        <item name="alphaEmphasisMedium">@dimen/alpha_emphasis_medium</item>
+        <item name="alphaEmphasisDisabled">@dimen/alpha_emphasis_disabled</item>
 
-    <!-- Splash Screen Theme (extends base theme) -->
-    <style name="Theme.MQSquashers.Splash" parent="Theme.SplashScreen">
-        <!-- Background color for splash -->
-        <item name="windowSplashScreenBackground">@color/splash_background_light</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/transparent</item>
 
-        <!-- Your splash icon/image -->
-        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_filled_inset</item>
+        <item name="elevationOverlayEnabled">false</item>
 
-        <!-- Animation duration in milliseconds -->
-        <item name="windowSplashScreenAnimationDuration">2300</item>
-
-        <!-- Theme to apply after splash -->
-        <item name="postSplashScreenTheme">@style/Theme.MQSquashers</item>
-
-        <!-- Status bar for splash -->
-        <item name="android:statusBarColor">@color/splash_background_light</item>
-        <item name="android:navigationBarColor">@color/splash_background_light</item>
-    </style>
-
-    <!-- Custom BottomNavigationView Style -->
-    <style name="Widget.MQSquashers.BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
-        <!-- Example: To change the background, uncomment the following line -->
-        <!-- <item name="android:background">@color/surface_light</item> -->
-
-        <!-- Example: To change the tint of the icons and text, you would define a Color State List -->
-        <!-- See https://developer.android.com/guide/topics/resources/color-list-resource -->
-        <!-- <item name="itemIconTint">@color/bottom_nav_item_tint</item> -->
-        <!-- <item name="itemTextColor">@color/bottom_nav_item_tint</item> -->
+        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+        <item name="colorAccent">?colorPrimaryVariant</item>
     </style>
 </resources>

@@ -1,7 +1,7 @@
 package com.example.mqsquashers
 
 object MQSquashers {
-    val current: Environment = Environment.Local
+    val current: Environment = Environment.Remote
 
     enum class Environment(val url: String) {
         Remote("https://mqsquashers.com"),

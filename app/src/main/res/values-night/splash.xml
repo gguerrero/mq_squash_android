@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Splash theme for dark mode -->
+    <style name="MQTheme.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_outline_inset</item>
+        <item name="windowSplashScreenAnimationDuration">2300</item>
+        <item name="postSplashScreenTheme">@style/MQTheme.DayNight</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+    </style>
+</resources>
