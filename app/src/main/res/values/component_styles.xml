@@ -52,10 +52,10 @@
         <item name="colorOnSurface">?colorOnSurface</item>
         <item name="colorOnSecondaryContainer">?colorOnSecondaryContainer</item>
         <item name="backgroundTint">@null</item>
-        <item name="elevation">3dp</item>
+        <item name="elevation">6dp</item>
         <item name="itemActiveIndicatorStyle">@style/Widget.MyTheme.BottomNavigationView.ActiveIndicator</item>
-        <item name="itemPaddingTop">6dp</item>
-        <item name="itemPaddingBottom">6dp</item>
+        <item name="itemPaddingTop">14dp</item>
+        <item name="itemPaddingBottom">14dp</item>
     </style>
 
 
