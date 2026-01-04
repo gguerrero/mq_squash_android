@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This shape defines a simple, horizontal line -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!--
+    Using a theme attribute like 'outlineVariant' is a best practice.
+    It's a subtle color from the Material 3 palette that automatically
+    adapts to both light and dark themes.
+    HOWEVER, we are defining this color ;) not leaving Material 3 to build it.
+    -->
+    <solid android:color="?colorOutlineVariant" />
+
+    <!-- This sets the thickness of the separator line -->
+    <size android:height="1dp" />
+
+</shape>

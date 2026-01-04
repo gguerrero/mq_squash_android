@@ -1,7 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <style name="MQTheme.DayNight" parent="Base.MyTheme" />
+    <style name="MQTheme.DayNight" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="alphaEmphasisHigh">@dimen/alpha_emphasis_high</item>
+        <item name="alphaEmphasisMedium">@dimen/alpha_emphasis_medium</item>
+        <item name="alphaEmphasisDisabled">@dimen/alpha_emphasis_disabled</item>
 
-    <style name="Base.MyTheme" parent="Base.MaterialThemeBuilder">
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:navigationBarDividerColor">@color/transparent</item>
+
+        <item name="elevationOverlayEnabled">false</item>
+
+        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+        <item name="colorAccent">?colorPrimaryVariant</item>
+
         <!--Material color attributes -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_variant</item>
@@ -22,34 +36,20 @@
         <item name="colorOnSecondaryContainer">@color/on_secondary_container</item>
         <item name="colorOnError">@color/on_error</item>
 
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+
+        <!--Material shape attributes-->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyTheme.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyTheme.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyTheme.LargeComponent</item>
+
         <!--Component styles-->
-<!--        <item name="materialAlertDialogTheme">@style/ThemeOverlay.MyTheme.AlertDialog</item>-->
-<!--        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>-->
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
         <item name="toolbarStyle">@style/Widget.MyTheme.Toolbar</item>
         <item name="bottomNavigationStyle">@style/Widget.MyTheme.BottomNavigationView</item>
         <item name="appBarLayoutStyle">@style/Widget.MyTheme.AppBarLayout</item>
-<!--        <item name="materialButtonStyle">@style/Widget.MyTheme.Button</item>-->
-<!--        <item name="buttonOutlineStyle">@style/Widget.MyTheme.OutlinedButton</item>-->
-<!--        <item name="buttonTextStyle">@style/Widget.MyTheme.TextButton</item>-->
         <!-- Toolbar arrow back style! -->
         <item name="toolbarNavigationButtonStyle">@style/Widget.MyTheme.Toolbar.Navigation.Tinted</item>
-    </style>
-
-    <style name="Base.MaterialThemeBuilder" parent="Theme.Material3.DayNight.NoActionBar">
-        <item name="alphaEmphasisHigh">@dimen/alpha_emphasis_high</item>
-        <item name="alphaEmphasisMedium">@dimen/alpha_emphasis_medium</item>
-        <item name="alphaEmphasisDisabled">@dimen/alpha_emphasis_disabled</item>
-
-        <item name="android:statusBarColor">@color/transparent</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:navigationBarColor">@color/transparent</item>
-        <item name="android:windowLightNavigationBar">true</item>
-        <item name="android:navigationBarDividerColor">@color/transparent</item>
-
-        <item name="elevationOverlayEnabled">false</item>
-
-        <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
-        <item name="colorPrimaryDark">?colorPrimaryVariant</item>
-        <item name="colorAccent">?colorPrimaryVariant</item>
     </style>
 </resources>

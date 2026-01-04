@@ -51,7 +51,7 @@
     <color name="primary_variant">@color/tomato</color>
     <color name="secondary">@color/raisin_black</color>
     <color name="secondary_variant">@color/space_cadet</color>
-    <color name="secondary_container">@color/space_cadet_20</color>">
+    <color name="secondary_container">@color/coral_20</color>">
 
     <!-- Background Colors -->
     <!--colorBackground appears behind scrollable content and is used for the default window-->
@@ -71,4 +71,7 @@
     <color name="on_surface_variant">@color/secondary</color>
     <color name="on_secondary_container">@color/space_cadet</color>
     <color name="on_error">@color/white</color>
+
+    <color name="outline">@color/coral</color>
+    <color name="outline_variant">@color/space_cadet_20</color>
 </resources>

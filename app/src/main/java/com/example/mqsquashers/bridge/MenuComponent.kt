@@ -11,6 +11,7 @@ import dev.hotwire.core.bridge.Message
 import dev.hotwire.navigation.destinations.HotwireDestination
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
+import com.example.mqsquashers.features.menu.DividerItemDecoration
 import com.example.mqsquashers.databinding.MenuComponentBottomSheetBinding
 
 /**
@@ -56,6 +57,8 @@ class MenuComponent(
                 onItemSelected(it)
             }
         }
+
+        binding.recyclerView.addItemDecoration(DividerItemDecoration(view.context))
 
         bottomSheet.apply {
             setContentView(binding.root)

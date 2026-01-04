@@ -4,10 +4,10 @@
     <!--Bottom Sheets -->
 
     <style name="ThemeOverlay.MyTheme.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.MyTheme.BottomSheet.Modal</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@color/transparent</item>
         <item name="android:statusBarColor">@color/transparent</item>
-        <item name="bottomSheetStyle">@style/Widget.MyTheme.BottomSheet.Modal</item>
     </style>
 
     <style name="Widget.MyTheme.BottomSheet.Modal" parent="Widget.Material3.BottomSheet.Modal">
@@ -15,13 +15,6 @@
         <item name="behavior_draggable">true</item>
         <item name="behavior_peekHeight">500dp</item>
         <item name="backgroundTint">?colorSurface</item>
-    </style>
-
-    <!--Dialogs-->
-
-    <style name="ThemeOverlay.MyTheme.AlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
-        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay.MyTheme.Rounded</item>
-    <!--    <item name="android:windowAnimationStyle">@style/Animation.MyTheme.AlertDialog</item>-->
     </style>
 
     <!--Toolbar-->

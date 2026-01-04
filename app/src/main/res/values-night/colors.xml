@@ -21,4 +21,7 @@
     <color name="on_surface_variant">@color/secondary</color>
     <color name="on_secondary_container">@color/coral</color>
     <color name="on_error">@color/white</color>
+
+    <color name="outline">@color/coral</color>
+    <color name="outline_variant">@color/coral_20</color>
 </resources>
