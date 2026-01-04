@@ -1,4 +1,4 @@
-package com.example.mqsquashers.bridge
+package com.mqsquashers.app.bridge
 
 import android.util.Log
 import android.view.LayoutInflater
@@ -11,8 +11,8 @@ import dev.hotwire.core.bridge.Message
 import dev.hotwire.navigation.destinations.HotwireDestination
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import com.example.mqsquashers.features.menu.DividerItemDecoration
-import com.example.mqsquashers.databinding.MenuComponentBottomSheetBinding
+import com.mqsquashers.app.features.menu.DividerItemDecoration
+import com.mqsquashers.app.databinding.MenuComponentBottomSheetBinding
 
 /**
  * Bridge component to display a native bottom sheet menu, which will

@@ -4,7 +4,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name=".MQSquashersApplication"
+        android:name="com.mqsquashers.app.MQSquashersApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/MQTheme.DayNight">
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.mqsquashers.app.main.MainActivity"
             android:exported="true"
             android:theme="@style/MQTheme.Splash">
             <intent-filter>

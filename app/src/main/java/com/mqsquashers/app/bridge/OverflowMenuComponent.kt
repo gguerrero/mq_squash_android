@@ -1,4 +1,4 @@
-package com.example.mqsquashers.bridge
+package com.mqsquashers.app.bridge
 
 import android.util.Log
 import androidx.appcompat.widget.Toolbar
@@ -9,7 +9,7 @@ import dev.hotwire.core.bridge.Message
 import dev.hotwire.navigation.destinations.HotwireDestination
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import com.example.mqsquashers.R
+import com.mqsquashers.app.R
 
 /**
  * Bridge component to display a native 3-dot menu in the toolbar, which

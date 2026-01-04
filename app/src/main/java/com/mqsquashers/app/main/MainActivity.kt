@@ -1,10 +1,10 @@
-package com.example.mqsquashers.main
+package com.mqsquashers.app.main
 
 import android.os.Bundle
 import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.activity.viewModels
-import com.example.mqsquashers.R
+import com.mqsquashers.app.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import dev.hotwire.navigation.activities.HotwireActivity
 import dev.hotwire.navigation.tabs.HotwireBottomNavigationController

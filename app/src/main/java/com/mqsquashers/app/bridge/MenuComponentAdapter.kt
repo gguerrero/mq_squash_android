@@ -1,4 +1,4 @@
-package com.example.mqsquashers.bridge
+package com.mqsquashers.app.bridge
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.textview.MaterialTextView
-import com.example.mqsquashers.R
+import com.mqsquashers.app.R
 
 class MenuComponentAdapter : RecyclerView.Adapter<MenuComponentAdapter.ViewHolder>() {
     private val type = R.layout.menu_component_adapter_row

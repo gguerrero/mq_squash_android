@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.mqsquashers"
+    namespace = "com.mqsquashers.app"
     compileSdk {
         version = release(36)
     }
 
     defaultConfig {
-        applicationId = "com.example.mqsquashers"
+        applicationId = "com.mqsquashers.app"
         minSdk = 28
         targetSdk = 36
         versionCode = 1

@@ -1,8 +1,8 @@
-package com.example.mqsquashers.features.web
+package com.mqsquashers.app.features.web
 
 import android.os.Bundle
 import android.view.View
-import com.example.mqsquashers.R
+import com.mqsquashers.app.R
 import dev.hotwire.navigation.destinations.HotwireDestinationDeepLink
 import dev.hotwire.navigation.fragments.HotwireWebFragment
 

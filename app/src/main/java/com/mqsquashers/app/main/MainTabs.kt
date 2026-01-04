@@ -1,10 +1,10 @@
-package com.example.mqsquashers.main
+package com.mqsquashers.app.main
 
 import android.content.Context
-import com.example.mqsquashers.R
 import dev.hotwire.navigation.navigator.NavigatorConfiguration
 import dev.hotwire.navigation.tabs.HotwireBottomTab
-import com.example.mqsquashers.MQSquashers
+import com.mqsquashers.app.MQSquashers
+import com.mqsquashers.app.R
 
 fun getMainTabs(context: Context): List<HotwireBottomTab> {
     val ranking = HotwireBottomTab(

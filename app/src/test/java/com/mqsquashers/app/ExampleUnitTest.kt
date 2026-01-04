@@ -1,4 +1,4 @@
-package com.example.mqsquashers
+package com.mqsquashers.app
 
 import org.junit.Test
 

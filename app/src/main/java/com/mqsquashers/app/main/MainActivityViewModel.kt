@@ -1,4 +1,4 @@
-package com.example.mqsquashers.main
+package com.mqsquashers.app.main
 
 import androidx.lifecycle.ViewModel
 

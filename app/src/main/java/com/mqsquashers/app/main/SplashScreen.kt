@@ -1,4 +1,4 @@
-package com.example.mqsquashers.main
+package com.mqsquashers.app.main
 
 import android.animation.ObjectAnimator
 import android.app.Activity

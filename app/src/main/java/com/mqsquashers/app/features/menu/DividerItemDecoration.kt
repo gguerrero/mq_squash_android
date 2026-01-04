@@ -1,4 +1,4 @@
-package com.example.mqsquashers.features.menu
+package com.mqsquashers.app.features.menu
 
 import android.content.Context
 import android.graphics.Canvas
@@ -7,7 +7,7 @@ import android.util.TypedValue
 import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.example.mqsquashers.R
+import com.mqsquashers.app.R
 
 
 // An ItemDecoration that draws a divider between items in a RecyclerView.

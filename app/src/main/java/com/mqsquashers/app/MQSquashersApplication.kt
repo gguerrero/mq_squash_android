@@ -1,4 +1,4 @@
-package com.example.mqsquashers
+package com.mqsquashers.app
 
 import android.app.Application
 import android.util.Log
@@ -7,9 +7,9 @@ import dev.hotwire.core.bridge.KotlinXJsonConverter
 import dev.hotwire.core.config.Hotwire
 import dev.hotwire.core.turbo.config.PathConfiguration
 import dev.hotwire.navigation.config.registerBridgeComponents
-import com.example.mqsquashers.bridge.MenuComponent
-import com.example.mqsquashers.bridge.OverflowMenuComponent
-import com.example.mqsquashers.features.web.WebFragment
+import com.mqsquashers.app.bridge.MenuComponent
+import com.mqsquashers.app.bridge.OverflowMenuComponent
+import com.mqsquashers.app.features.web.WebFragment
 import dev.hotwire.navigation.config.defaultFragmentDestination
 import dev.hotwire.navigation.config.registerFragmentDestinations
 
