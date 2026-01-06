@@ -40,14 +40,9 @@ class OverflowMenuComponent(
     private fun showOverflowMenuItem(data: MessageData) {
         val toolbar = toolbar ?: return
 
-        Log.d("OverflowMenuComponent", "toolbar: $toolbar")
-        Log.d("OverflowMenuComponent", "toolbar.menu: $toolbar.menu")
-        Log.d("OverflowMenuComponent", "data: ${data}")
         toolbar.menu.findItem(R.id.overflow)?.apply {
             isVisible = true
             title = data.label
-            Log.d("OverflowMenuComponent", "isVisible: $isVisible")
-            Log.d("OverflowMenuComponent", "title: $title")
         }
 
         toolbar.setOnMenuItemClickListener {

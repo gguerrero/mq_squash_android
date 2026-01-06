@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name" translatable="false">MQS</string>
     <string name="full_app_name" translatable="false">MQ Squashers</string>
-    <string name="app_version" translatable="false">0.0.1</string>
-    <string name="main_nav_uri" translatable="false">https://mqsquashers.com</string>
+    <string name="app_version" translatable="false">1.0.0</string>
     <string name="ranking">Ranking</string>
     <string name="finals">Finals</string>
     <string name="rules">Rules</string>

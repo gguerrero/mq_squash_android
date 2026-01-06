@@ -51,11 +51,5 @@ class MQSquashersApplication: Application() {
         Hotwire.config.jsonConverter = KotlinXJsonConverter()
         Hotwire.config.applicationUserAgentPrefix =
             "${getString(R.string.full_app_name)}/${getString(R.string.app_version)}"
-
-        // Logging for Debug configuration
-        Log.d(
-            "MQSquashersApplication",
-            ": Hotwire Config userAgent: ${Hotwire.config.userAgent}"
-        )
     }
 }

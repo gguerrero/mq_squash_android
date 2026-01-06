@@ -1,6 +1,4 @@
 <resources>
     <string name="app_name" translatable="false">MQS (Dev)</string>
     <string name="full_app_name" translatable="false">MQ Squashers</string>
-    <string name="app_version" translatable="false">0.0.1</string>
-    <string name="main_nav_uri" translatable="false">https://mqsquashers.com</string>
 </resources>
