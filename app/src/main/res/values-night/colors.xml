@@ -6,7 +6,7 @@
 
     <color name="primary">@color/coral</color>
     <color name="primary_variant">@color/tomato</color>
-    <color name="secondary">@color/white</color>
+    <color name="secondary">@color/gray_light</color>
     <color name="secondary_variant">@color/cool_gray</color>
     <color name="secondary_container">@color/coral_20</color>">
 
@@ -17,10 +17,10 @@
     <color name="on_primary">@color/raisin_black</color>
     <color name="on_secondary">@color/white</color>
     <color name="on_background">@color/coral</color>
-    <color name="on_surface">@color/coral</color>
+    <color name="on_surface">@color/secondary</color>
     <color name="on_surface_variant">@color/secondary</color>
     <color name="on_secondary_container">@color/coral</color>
-    <color name="on_error">@color/white</color>
+    <color name="on_error">@color/gray_light</color>
 
     <color name="outline">@color/coral</color>
     <color name="outline_variant">@color/coral_20</color>
